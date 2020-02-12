@@ -1,5 +1,5 @@
 ---
-label: Journal
+label: Tutorials
 hide_body: false
 fields:
 - type: text
@@ -43,5 +43,3 @@ fields:
     - Simon Filip
   label: Author
   default: Nichlas W. Andersen
-pages:
-- journal/how-to-work-with-lighgting.md
