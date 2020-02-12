@@ -3,31 +3,11 @@
     <div class="container">
 
       <div class="contact-header">
-        <h1 class="contact-title">Get Support</h1>
+        <h1 class="contact-title">Company</h1>
         <p>Leave us a note with any questions you might have, we'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact">
-
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Your email</label>
-            <input type="email" name="email" />
-          </div>
-        </div>
-
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
-        </div>
-
-        <button class="button">SEND</button>
-
-      </form>
+      Company
 
     </div>
   </Layout>

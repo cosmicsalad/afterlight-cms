@@ -13,6 +13,7 @@
             <nav class="nav right">
                 <g-link class="nav__link" to="/tutorials">Tutorials</g-link>
                 <g-link class="nav__link" to="/support">Support</g-link>
+                <g-link class="nav__link" to="/company">Company</g-link>
             </nav>
         </div>
     </header>
