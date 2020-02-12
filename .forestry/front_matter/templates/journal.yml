@@ -34,11 +34,13 @@ fields:
   config:
     source:
       type: simple
-      section: authors
+      section: ''
       file: data/authors/nichlas-w-andersen.json
     required: true
     options:
-    - Nichlas W. Andersen
+    - Angel Dorr
+    - Becky Filip
+    - Simon Filip
   label: Author
   default: Nichlas W. Andersen
 pages:
