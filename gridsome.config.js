@@ -5,7 +5,7 @@ module.exports = {
   siteName: "Afterlight",
   siteUrl: `https://afterlight.co`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s - AL",
   siteDescription: "The Best Mobile Photo Editor on iOS.",
   plugins: [
     {
