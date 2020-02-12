@@ -26,7 +26,7 @@
 
 <page-query>
 query Tutorial {
-	posts: allJournalPost {
+	posts: allTutorialPost {
     edges {
       node {
         id
