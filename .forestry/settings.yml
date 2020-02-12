@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: pages/Company.vue
+  path: pages/Company
   label: Company
 - type: directory
   path: tutorials
