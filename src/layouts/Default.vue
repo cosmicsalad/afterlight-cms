@@ -1,11 +1,10 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
     <Header />
-    <transition
-        name="fade"
-        mode="out-in"
-      >
-    <slot/>
+    <transition name="fade" mode="out-in" appear>
+      <main>
+        <slot/>
+      </main>
     </transition>
     <Footer />
   </div>
@@ -52,6 +51,16 @@ body.dark {
 
 h1 {
   letter-spacing: -0.01em;
+}
+
+.fade-enter-active {
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter {
+  opacity: 0
 }
 
 .layout {
