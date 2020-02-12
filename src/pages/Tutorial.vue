@@ -25,7 +25,7 @@
 </template>
 
 <page-query>
-query Journal {
+query Tutorial {
 	posts: allJournalPost {
     edges {
       node {
