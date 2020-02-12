@@ -14,7 +14,7 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
-upload_dir: uploads
+upload_dir: ''
 public_path: https://afterlight.s3.us-west-1.amazonaws.com
 front_matter_path: ''
 use_front_matter_path: false
