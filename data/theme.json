@@ -1,6 +1,6 @@
 {
   "footer": "Copyright &copy; 2020 Afterlight Collective, Inc.",
-  "dark_mode": false,
+  "dark_mode": true,
   "site_name": "Afterlight",
   "site_description": "iOS Mobile Photo Editor",
   "hero_title": "Filter. Texture. Create.",
