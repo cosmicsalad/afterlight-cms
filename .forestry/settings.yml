@@ -5,9 +5,8 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: pages/company
+  path: pages
   label: Company
-  match: "**/*"
 - type: directory
   path: tutorials
   label: Tutorials
