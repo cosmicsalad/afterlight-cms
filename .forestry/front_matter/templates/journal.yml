@@ -7,6 +7,12 @@ fields:
   label: Title
   config:
     required: true
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
+  description: This is the image that sits above the title.
 - type: textarea
   name: excerpt
   label: Excerpt
