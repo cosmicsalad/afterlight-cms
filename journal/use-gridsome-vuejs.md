@@ -1,9 +1,10 @@
 ---
 date: 2019-06-04
 title: VueJS for your next project
-author: Andrew Filip
+author: Angel Dorr
 excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building
   user interfaces.
+featured_image: ''
 
 ---
 ## VueJS is awesome
