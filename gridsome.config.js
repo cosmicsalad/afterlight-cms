@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Afterlight",
+  siteUrl: `https://afterlight.co`,
   host: "0.0.0.0",
   titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  siteDescription: "The Best Mobile Photo Editor on iOS.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
