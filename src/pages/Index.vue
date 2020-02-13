@@ -1,8 +1,10 @@
 <template>
   <Layout>
-    <div class="container">
+    <div class="home">
       <Hero />
-      <ProjectsGrid :projects="$page.projects.edges" />
+      <div class="container">
+        <ProjectsGrid :projects="$page.projects.edges" />
+      </div>
     </div>
   </Layout>
 </template>
@@ -46,3 +48,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+
+
+</style>

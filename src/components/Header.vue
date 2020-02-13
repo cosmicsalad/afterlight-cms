@@ -47,6 +47,9 @@ export default {
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    max-width: 100%;
+    padding: 0 3rem;
+    margin: 0;
 }
 .home-link {
     text-decoration: none;

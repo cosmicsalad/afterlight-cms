@@ -2,7 +2,7 @@
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
     <Header />
     <transition name="fade" mode="out-in" appear>
-      <main>
+      <main class="main">
         <slot/>
       </main>
     </transition>
@@ -42,6 +42,7 @@ body {
   background: var(--color-base);
   color: var(--color-contrast);
   transition: background 0.5s ease;
+  width: 100%;
 }
 
 body.dark {
