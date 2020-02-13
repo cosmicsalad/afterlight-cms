@@ -5,8 +5,16 @@
                 <span v-html="settings.footer" />
             </div>
             <div class="footer-menu">
-                <g-link class="nav__link" to="https://instagram.com/afterlight">Instagram</g-link>
-                <g-link class="nav__link" to="https://twitter.com/afterlightapp">Twitter</g-link>
+                <div class="footer-group">
+                    <div class="heading">Social</div>
+                    <g-link class="nav__link" to="https://instagram.com/afterlight">Instagram</g-link>
+                    <g-link class="nav__link" to="https://twitter.com/afterlightapp">Twitter</g-link>
+                </div>
+                <div class="footer-group">
+                    <div class="heading">Legal</div>
+                    <g-link class="nav__link" to="https://instagram.com/afterlight">Privacy</g-link>
+                    <g-link class="nav__link" to="https://twitter.com/afterlightapp">Terms</g-link>
+                </div>
             </div>
         </div>
     </footer>
@@ -29,29 +37,53 @@ export default {
 }
 .footer > .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     height: 100%;
+
 }
 
-.footer-menu > * {
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-group {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.footer-group > * {
     font-size: 0.75rem;
     font-weight: 600;
     text-decoration: none;
-    margin-top: 4px;
-    margin-right: 2rem;
-    padding-bottom: 4px;
-    border-bottom: 1px solid;
-    border-color: transparent;
-    transition: border 0.15s;
+    text-align: left;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    transition: color 0.25s;
+    color: #888;
 }
-.footer-menu > *:last-of-type {
+.footer-group > *:last-of-type {
     margin: 0;
 }
-.footer-menu > *:hover {
-    border-color: inherit;
+.footer-group > *:hover {
+    color: #fff;
 }
-.footer-menu > .active {
-    border-color: inherit;
+.footer-group > .active {
+    color: #fff;
+}
+.footer-group .heading {
+    color: #444;
+    /* border-bottom: 1px solid #555; */
+    width: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 </style>
