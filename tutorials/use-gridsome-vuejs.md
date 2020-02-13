@@ -1,9 +1,11 @@
 ---
 date: 2019-06-04
-title: VueJS for your next project
+title: Tutorial - How to do some things goodly.
 author: Andrew Filip
-excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building
-  user interfaces.
+excerpt: This is a test excerpt. Need to try shorter ones.
+categories:
+- tutorial
+- test
 
 ---
 ## VueJS is awesome
