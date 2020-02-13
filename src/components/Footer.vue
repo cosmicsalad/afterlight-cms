@@ -1,10 +1,13 @@
 <template>
     <footer class="footer">
         <div class="container">
-            <div class="right">
-                <span v-html="settings.footer" />
-            </div>
+
             <div class="footer-menu">
+                <div class="footer-group">
+                    <div class="heading">Community</div>
+                    <g-link class="nav__link" to="/tutorials">Tutorials</g-link>
+                    <g-link class="nav__link" to="/support">Support</g-link>
+                </div>
                 <div class="footer-group">
                     <div class="heading">Legal</div>
                     <g-link class="nav__link" to="/privacy">Privacy</g-link>
@@ -16,6 +19,9 @@
                     <g-link class="nav__link" to="https://twitter.com/afterlightapp">Twitter</g-link>
                 </div>
             </div>
+
+            <span v-html="settings.footer" />
+
         </div>
     </footer>
 </template>
@@ -54,7 +60,7 @@ export default {
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 2rem;
+    margin-right: 4rem;
 }
 
 .footer-group > * {
