@@ -6,14 +6,14 @@
             </div>
             <div class="footer-menu">
                 <div class="footer-group">
+                    <div class="heading">Legal</div>
+                    <g-link class="nav__link" to="/privacy">Privacy</g-link>
+                    <g-link class="nav__link" to="/terms">Terms</g-link>
+                </div>
+                <div class="footer-group">
                     <div class="heading">Social</div>
                     <g-link class="nav__link" to="https://instagram.com/afterlight">Instagram</g-link>
                     <g-link class="nav__link" to="https://twitter.com/afterlightapp">Twitter</g-link>
-                </div>
-                <div class="footer-group">
-                    <div class="heading">Legal</div>
-                    <g-link class="nav__link" to="https://instagram.com/afterlight">Privacy</g-link>
-                    <g-link class="nav__link" to="https://twitter.com/afterlightapp">Terms</g-link>
                 </div>
             </div>
         </div>
