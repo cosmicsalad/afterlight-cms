@@ -1,20 +1,20 @@
 <template>
   <Layout>
-    <div class="journal">
-      <div class="container journal-container">
+    <div class="tutorial">
+      <div class="container tutorial-container">
 
-        <div class="journal-header">
-          <h1 v-html="$page.post.title" class="journal-title" />
-          <div class="journal-meta">
-            <div class="journal-author">
+        <div class="tutorial-header">
+          <h1 v-html="$page.post.title" class="tutorial-title" />
+          <div class="tutorial-meta">
+            <div class="tutorial-author">
               <span class="label">Author</span>
               <span class="author-name" v-text="$page.post.author" />
             </div>
-            <div class="journal-date">
+            <div class="tutorial-date">
               <span class="label">Date</span>
               <div v-text="$page.post.date"/>
             </div>
-            <div class="journal-time">
+            <div class="tutorial-time">
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>
@@ -56,26 +56,26 @@ export default {
 </script>
 
 <style scoped>
-.journal-container {
+.tutorial-container {
   max-width: 840px;
 }
-.journal-header {
+.tutorial-header {
   padding: 2rem 0 4rem 0;
 }
-.journal-title {
+.tutorial-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.journal-meta {
+.tutorial-meta {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8rem;
 }
-.journal-meta > div {
+.tutorial-meta > div {
   margin-right: 4rem;
 }
-.journal-meta > div:last-of-type {
+.tutorial-meta > div:last-of-type {
   margin: 0;
 }
 </style>
