@@ -8,15 +8,15 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
+- type: file
+  name: featured_image
+  label: featured_image
 - name: categories
   type: tag_list
   default:
   - tutorial
   label: Categories
   description: Add as many categories as apply.
-- type: file
-  name: featured_image
-  label: featured_image
 - type: datetime
   name: date
   label: date
