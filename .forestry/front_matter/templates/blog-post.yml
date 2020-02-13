@@ -13,7 +13,7 @@ fields:
   default:
   - tutorial
   label: Categories
-  description: Add as many categories as apply :)
+  description: Add as many categories as apply.
 - type: file
   name: featured_image
   label: featured_image
