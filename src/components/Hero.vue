@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 .hero {
     text-align: center;
     width: 100%;
@@ -35,10 +35,21 @@ export default {
 
 }
 
+.hero:after {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+}
+
 .hero-intro {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 9;
   transform: translate3d(-50%,-50%,0);
 }
 
