@@ -4,6 +4,7 @@
       <div class="container tutorial-container">
 
         <div class="tutorial-header">
+          <img v-src="$page.post.featured_image" />
           <h1 v-html="$page.post.title" class="tutorial-title" />
           <div class="tutorial-meta">
             <div class="tutorial-author">
@@ -36,6 +37,7 @@ query TutorialPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
+    featured_image
   }
 }
 </page-query>
@@ -57,7 +59,7 @@ export default {
 
 <style scoped>
 .tutorial-container {
-  max-width: 840px;
+  /* max-width: 840px; */
 }
 .tutorial-header {
   padding: 2rem 0 4rem 0;
