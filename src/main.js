@@ -8,4 +8,8 @@ export default function(Vue, { head }) {
   head.bodyAttrs = {
     class: settings.dark_mode ? "dark" : ""
   };
+  head.link.push({
+    rel: 'stylesheet',
+    url: 'https://use.typekit.net/enb7kaf.css'
+  });
 }

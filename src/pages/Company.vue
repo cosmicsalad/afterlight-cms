@@ -4,10 +4,9 @@
 
       <div class="contact-header">
         <h1 class="contact-title">Company</h1>
-        <p>Leave us a note with any questions you might have, we'll get back to you as soon as possible.</p>
       </div>
 
-      Company
+      Info about us goes here with a large image up top.
 
     </div>
   </Layout>

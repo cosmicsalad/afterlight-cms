@@ -33,7 +33,9 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: titling-gothic-fb-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin:0;
   padding: 0;
   font-size: 16px;
