@@ -1,5 +1,5 @@
 ---
-date: 2019-06-04
+date: 2019-06-04T00:00:00-07:00
 title: Tutorial - How to do some things Goodlier
 author: Andrew Filip
 excerpt: This is a test excerpt. Need to try shorter ones.
