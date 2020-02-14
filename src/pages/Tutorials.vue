@@ -4,7 +4,7 @@
     <div class="container">
       <div class="tutorial-hero">
         <h1 class="tutorial-header">
-          some sort of heading here.
+          get dem tutorials here.
         </h1>
       </div>
     </div>
@@ -46,11 +46,11 @@ export default {
 
 <style scoped>
 .container.tutorial {
-  max-width: 720px;
+  /* max-width: 720px; */
 }
 .tutorial-hero {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   color: var(--color-base-1);
 }
 .tutorial-header {

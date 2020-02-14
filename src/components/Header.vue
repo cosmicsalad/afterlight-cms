@@ -4,7 +4,7 @@
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/logo.png"
+                        src="../../static/header-logo.png"
                         :alt="settings.site_name" 
                         class="logo"
                     />
@@ -14,6 +14,7 @@
                 <g-link class="nav__link" to="/tutorials">Tutorials</g-link>
                 <g-link class="nav__link" to="/support">Support</g-link>
                 <g-link class="nav__link" to="/company">Company</g-link>
+                <button class="bg-purple-900 hover:bg-purple-700 text-white font-bold py-1 px-4 rounded">Download</button>
             </nav>
         </div>
     </header>
@@ -55,7 +56,7 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 1.5rem;
+    height: 4em;
 }
 .site-name {
     font-size: 0.9rem;
@@ -65,7 +66,7 @@ export default {
     text-transform: uppercase;   
 }
 .nav > * {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 600;
     text-decoration: none;
     margin-top: 4px;
@@ -75,8 +76,14 @@ export default {
     border-color: transparent;
     transition: border 0.15s;
 }
-.nav > *:last-of-type {
-    margin: 0;
+.nav button {
+    border: 0 !important;
+}
+.nav button:hover {
+    border: 0;
+}
+.nav > *:last-child {
+    margin-right: 0;
 }
 .nav > *:hover {
     border-color: inherit;

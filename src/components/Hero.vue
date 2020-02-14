@@ -4,10 +4,10 @@
         <h1 class="hero-title" v-html="settings.hero_title" />
         <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
       </div>
-      <img 
+      <!-- <img 
           src="../../static/herobg.jpg"
           class="herobg"
-      />
+      /> -->
     </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
     overflow: hidden;
     height: calc(80vh);
     margin-bottom: 5rem;
-
+    border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .hero:after {

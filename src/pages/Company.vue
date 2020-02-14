@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="contact-header">
-        <h1 class="contact-title">Company</h1>
+        <!-- <h1 class="contact-title">Company</h1> -->
       </div>
 
       Info about us goes here with a large image up top.
@@ -13,7 +13,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  
+}
 </script>
 
 <style scoped>
