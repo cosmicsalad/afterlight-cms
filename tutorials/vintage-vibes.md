@@ -4,7 +4,7 @@ categories:
 title: 'Vintage Vibes '
 excerpt: This is just a short description of what the post is about.
 featured_image: https://afterlight.s3.us-west-1.amazonaws.com/331DC873-7E12-485B-9947-BFDEF8903F22.jpeg
-date: 2020-02-13T08:00:00.000+00:00
+date: 2020-02-14T00:00:00-08:00
 author: Angel Dorr
 
 ---
