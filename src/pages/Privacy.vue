@@ -1,9 +1,10 @@
 <template>
   <Layout>
     <div class="container">
+
       <PageHeader 
-        title="Company"
-        subtitle="Info about us goes here with a large image up top."
+        title="Privacy Policy"
+        subtitle="Info here."
       />
 
     </div>
@@ -21,14 +22,6 @@ export default {
 </script>
 
 <style scoped>
-.contact-header {
-  padding: 2rem 0 4rem 0;
-}
-.contact-title {
-  font-size: 4rem;
-  margin: 0 0 4rem 0;
-  padding: 0;
-}
 .sender-info {
   display: flex;
   flex-wrap: wrap;

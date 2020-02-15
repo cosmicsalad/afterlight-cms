@@ -4,6 +4,13 @@
  * http://www.adobe.com/products/eulas/tou_typekit. For font license
  * information, see the list below.
  *
+ * eurostile:
+ *   - http://typekit.com/eulas/00000000000000003b9b2163
+ *   - http://typekit.com/eulas/00000000000000003b9b2162
+ * eurostile-extended:
+ *   - http://typekit.com/eulas/00000000000000000001799b
+ *   - http://typekit.com/eulas/00000000000000000001799c
+ *   - http://typekit.com/eulas/00000000000000000001799e
  * titling-gothic-fb:
  *   - http://typekit.com/eulas/00000000000000003b9ae8de
  *   - http://typekit.com/eulas/00000000000000003b9ae8e0
@@ -11,11 +18,41 @@
  *   - http://typekit.com/eulas/00000000000000003b9ae8f3
  *   - http://typekit.com/eulas/00000000000000003b9ae8f5
  *
- * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
  */
-/*{"last_published":"2020-02-13 00:22:33 UTC"}*/
+/*{"last_published":"2020-02-14 21:53:08 UTC"}*/
 
-@import url("https://p.typekit.net/p.css?s=1&k=enb7kaf&ht=tk&f=31375.31377.31396.31398&a=9462511&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=enb7kaf&ht=tk&f=25753.25765.25757.25758.25760.31375.31377.31396.31398&a=9462511&app=typekit&e=css");
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/6be0f8/00000000000000003b9b2163/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/6be0f8/00000000000000003b9b2163/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/6be0f8/00000000000000003b9b2163/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/198f80/00000000000000003b9b2162/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/198f80/00000000000000003b9b2162/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/198f80/00000000000000003b9b2162/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"eurostile-extended";
+src:url("https://use.typekit.net/af/ab3a28/00000000000000000001799b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/ab3a28/00000000000000000001799b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/ab3a28/00000000000000000001799b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;
+}
+
+@font-face {
+font-family:"eurostile-extended";
+src:url("https://use.typekit.net/af/d32dfa/00000000000000000001799c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/d32dfa/00000000000000000001799c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/d32dfa/00000000000000000001799c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"eurostile-extended";
+src:url("https://use.typekit.net/af/92e70e/00000000000000000001799e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/92e70e/00000000000000000001799e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/92e70e/00000000000000000001799e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;
+}
 
 @font-face {
 font-family:"titling-gothic-fb";
@@ -41,5 +78,7 @@ src:url("https://use.typekit.net/af/26c587/00000000000000003b9ae8f5/27/l?primer=
 font-display:auto;font-style:normal;font-weight:700;
 }
 
+.tk-eurostile { font-family: "eurostile",sans-serif; }
+.tk-eurostile-extended { font-family: "eurostile-extended",sans-serif; }
 .tk-titling-gothic-fb { font-family: "titling-gothic-fb",sans-serif; }
 .tk-titling-gothic-fb-extended { font-family: "titling-gothic-fb-extended",sans-serif; }

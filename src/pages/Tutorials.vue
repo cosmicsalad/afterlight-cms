@@ -1,24 +1,22 @@
 <template>
   <Layout>
 
-    <div class="container">
-      <div class="tutorial-hero">
-        <h1 class="tutorial-header">
-          get dem tutorials here.
-        </h1>
-      </div>
-    </div>
+    <PageHeader
+      title="Tutorials."
+      subtitle="Education"
+    />
 
     <g-link 
       :to="item.node.path"
       v-for="item in $page.posts.edges" 
       :key="item.node.id"
-      class="tutorial-post"
+      class="tutorial-post overflow-hidden text-center bg-purple-600"
     >
-      <div class="container tutorial">
         <h2 class="tutorial-title">{{ item.node.title }}</h2>
         <p class="tutorial-excerpt">{{ item.node.excerpt }}</p>
-      </div>
+        <!-- <g-image :src="item.node.featured_image" class="absolute top-0 left-0 z-50 w-full h-full" /> -->
+        <!-- <div class="w-full h-full absolute top-50 left-50 z-50 bg-fixed bg-cover bg-red-500"></div> -->
+      
     </g-link>
       
   </Layout>
@@ -33,6 +31,7 @@ query Tutorial {
         path
         title
         excerpt
+        featured_image
       }
     }
   }
@@ -40,7 +39,16 @@ query Tutorial {
 </page-query>
 
 <script>
+import PageHeader from "@/components/PageHeader"
 export default {
+  components: {
+    PageHeader
+  },
+  computed: {
+    style() {
+      return 'background-image: url(' + item.node.featured_image + ') cover no-repeat';
+    }
+  }
 }
 </script>
 
@@ -50,7 +58,6 @@ export default {
 }
 .tutorial-hero {
   padding: 4rem 0;
-  text-align: left;
   color: var(--color-base-1);
 }
 .tutorial-header {
@@ -72,7 +79,7 @@ export default {
   background-color: var(--color-base-1);
 }
 .tutorial-post:hover > * {
-  transform: translateX(4rem);
+  transform: translateZ(4rem) scale3d(1.1,1.1,1.1);
 }
 .tutorial-post h1,
 .tutorial-post h2 {
@@ -80,7 +87,7 @@ export default {
   padding: 0;
 }
 .tutorial-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--color-contrast);
 }
 .tutorial-excerpt {

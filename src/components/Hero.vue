@@ -1,8 +1,10 @@
 <template>
-    <div class="hero">
-      <div class="hero-intro">
-        <h1 class="hero-title" v-html="settings.hero_title" />
-        <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+    <div class="text-center w-full max-w-full my-0 mx-auto relative overflow-hidden h-screen mb-20 bg-purple-700">
+      <div class="hero-intro rounded-lg w-full">
+        <PageHeader 
+          title="Filter. Texture. Create."
+          subtitle="The only iOS Photo Editor you need."
+        />
       </div>
       <!-- <img 
           src="../../static/herobg.jpg"
@@ -12,7 +14,12 @@
 </template>
 
 <script>
+import PageHeader from "@/components/PageHeader"
+
 export default {
+  components: {
+    PageHeader
+  },
   data() {
     return {
       settings: require("../../data/theme.json")
@@ -22,18 +29,6 @@ export default {
 </script>
 
 <style>
-.hero {
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    /* padding: 4rem 0 8rem 0; */
-    position: relative;
-    overflow: hidden;
-    height: calc(80vh);
-    margin-bottom: 5rem;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-}
 
 .hero:after {
   display: block;

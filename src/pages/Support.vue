@@ -2,10 +2,10 @@
   <Layout>
     <div class="container">
 
-      <div class="contact-header">
-        <!-- <h1 class="contact-title">Get Support</h1> -->
-        <!-- <p>Leave us a note with any questions you might have, we'll get back to you as soon as possible.</p> -->
-      </div>
+      <PageHeader 
+        title="Get Support"
+        subtitle="Leave us a note with any questions you might have, we'll get back to you as soon as possible."
+      />
 
       <form class="contact-form" name="contact">
 
@@ -34,7 +34,13 @@
 </template>
 
 <script>
-export default {}
+import PageHeader from "@/components/PageHeader"
+
+export default {
+  components: {
+    PageHeader
+  }
+}
 </script>
 
 <style scoped>

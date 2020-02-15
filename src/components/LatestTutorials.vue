@@ -41,7 +41,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
 }
-.journal {
+.tutorial {
   flex: 0 0 100%;
   display: block;
   padding: 2rem;

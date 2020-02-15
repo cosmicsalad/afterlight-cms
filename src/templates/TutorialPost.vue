@@ -62,7 +62,7 @@ export default {
   /* max-width: 840px; */
 }
 .tutorial-header {
-  padding: 2rem 0 4rem 0;
+  padding: 10rem 0 4rem 0;
 }
 .tutorial-title {
   font-size: 4rem;

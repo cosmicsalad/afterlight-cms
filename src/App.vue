@@ -43,6 +43,36 @@ export default {
 
 <style>
 
+@font-face {
+  font-family: Domaine;
+  src: url('assets/DomaineBold.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: DomaineItalic;
+  src: url('assets/DomaineBold-Italic.otf');
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: Calibre;
+  src: url('assets/CalibreMedium.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: CalibreItalic;
+  src: url('assets/DomaineBold-Italic.otf');
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: CalibreBold;
+  src: url('assets/CalibreBold.otf');
+  font-weight: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -51,13 +81,13 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: titling-gothic-fb, sans-serif;
+  font-family: Calibre, eurostile-extended, titling-gothic-fb, sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.05rem;
   margin:0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1em;
   background: var(--color-base);
   color: var(--color-contrast);
   transition: background 0.5s cubic-bezier(0.4, 0.25, 0.3, 1);
@@ -73,7 +103,12 @@ body.dark {
 }
 
 h1 {
+  font-family: Domaine, serif;
   letter-spacing: -0.01em;
+}
+
+h2 {
+  font-family: CalibreBold, sans-serif;
 }
 
 .fade-enter-active {
