@@ -2,8 +2,8 @@
   <Layout>
     <div class="container">
       <PageHeader 
-        title="Company"
-        subtitle="Info about us goes here with a large image up top."
+        title="Afterlight Collective."
+        subtitle="We're a small team of designers & developers building things we love."
       />
 
     </div>

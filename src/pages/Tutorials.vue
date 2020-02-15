@@ -3,7 +3,7 @@
 
     <PageHeader
       title="Tutorials."
-      subtitle="Education"
+      subtitle="Educational posts about how to make the most of Afterlight's powerful tools and content."
     />
 
     <g-link 
