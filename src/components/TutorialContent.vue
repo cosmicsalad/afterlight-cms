@@ -18,6 +18,10 @@ p {
     line-height: 1.5;
     font-size: 1.15rem;
 }
+h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
 h2 {
     font-size: 2rem;
 }
@@ -26,5 +30,8 @@ h3 {
 }
 h4, h5, h6 {
     font-size: 1.15rem;
+}
+img {
+    padding: 2rem 0;
 }
 </style>
