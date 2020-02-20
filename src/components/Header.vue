@@ -14,7 +14,7 @@
                 <g-link class="nav__link" to="/tutorials">Tutorials</g-link>
                 <g-link class="nav__link" to="/support">Support</g-link>
                 <g-link class="nav__link" to="/company">Company</g-link>
-                <button class="bg-purple-900 hover:bg-purple-700 text-white font-bold py-1 px-4 rounded">Download</button>
+                <button class="bg-purple-900 hover:bg-purple-800 text-white font-bold py-1 px-4 rounded">Download</button>
             </nav>
         </div>
     </header>
@@ -66,11 +66,11 @@ export default {
     text-transform: uppercase;   
 }
 .nav > * {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
     margin-top: 4px;
-    margin-right: 3rem;
+    margin-right: 2rem;
     padding-bottom: 4px;
     border-bottom: 1px solid;
     border-color: transparent;

@@ -1,15 +1,15 @@
 <template>
-    <div class="text-center w-full max-w-full my-0 mx-auto relative overflow-hidden h-screen mb-20 bg-purple-700">
+    <div class="hero text-center w-full max-w-full my-0 mx-auto relative overflow-hidden h-screen mb-20 bg-purple-700">
       <div class="hero-intro rounded-lg w-full">
         <PageHeader 
           title="Filter. Texture. Create."
-          subtitle="The only iOS Photo Editor you need."
+          subtitle="The Most Complete & Featured-Rich Photo Editor on iOS."
         />
       </div>
-      <!-- <img 
-          src="../../static/herobg.jpg"
+      <img 
+          src="../../static/hill.jpg"
           class="herobg"
-      /> -->
+      />
     </div>
 </template>
 
@@ -30,6 +30,12 @@ export default {
 
 <style>
 
+.hero {
+  max-height: 650px;
+  background: url('../../static/hill.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .hero:after {
   display: block;
   content: "";
@@ -37,7 +43,17 @@ export default {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.75);
+  background: rgba(110,46,198,0.65);
+}
+
+.hero:before {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 6, 20, 0.5);
 }
 
 .hero-intro {
@@ -49,10 +65,11 @@ export default {
 }
 
 .herobg {
+  display:none;
   position: absolute;
-  top: 0;
+  top: -130px;
   left: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 .hero-title {
@@ -67,7 +84,7 @@ export default {
     padding: 0;
 }
 .hero-subtitle {
-    font-size: 1.15em;
+    font-size: 1.0em;
     font-weight: 400;
     line-height: 1.68;
     padding: 0;
