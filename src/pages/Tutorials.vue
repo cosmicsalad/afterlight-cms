@@ -11,7 +11,7 @@
         :to="item.node.path"
         v-for="item in $page.posts.edges" 
         :key="item.node.id"
-        class="tutorial-post relative text-center bg-black-900 px-18 py-2 m-5 flex flex-col justify-center content-center overflow-hidden"
+        class="tutorial-post relative text-center bg-black-900 px-18 py-2 m-3 flex flex-col justify-center content-center overflow-hidden"
       >
           <h2 class="tutorial-title pb-3 px-8 z-10 w-full block">{{ item.node.title }}</h2>
           <p class="tutorial-excerpt px-10 z-10 w-full block">{{ item.node.excerpt }}</p>
@@ -72,12 +72,12 @@ export default {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 30rem;
-  height: 20rem;
+  width: 20rem;
+  height: 15rem;
   padding: 2rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
-  border-radius: 7px;
+  border-radius: 2px;
 }
 .tutorial-post > * {
   transition: all 0.5s ease;
@@ -90,7 +90,7 @@ export default {
   perspective: 1000;
 }
 .tutorial-post:hover .bgimg {
-  opacity: 0.1;
+  opacity: 0.5;
 }
 .tutorial-post h1,
 .tutorial-post h2 {
@@ -103,10 +103,15 @@ export default {
   opacity: 0.2;
 }
 .tutorial-title {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
+  font-family: DomaineItalic;
   color: var(--color-contrast);
 }
 .tutorial-excerpt {
+  font-family: Calibre;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.2;
   color: var(--color-contrast-1);
 }
 

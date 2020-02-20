@@ -56,7 +56,7 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 7em;
+    max-height: 3.5rem;
 }
 .site-name {
     font-size: 0.9rem;

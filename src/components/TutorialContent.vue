@@ -31,7 +31,7 @@ h3 {
 h4, h5, h6 {
     font-size: 1.15rem;
 }
-img {
+p img {
     padding: 2rem 0;
 }
 </style>
