@@ -72,7 +72,7 @@ export default {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 20rem;
+  width: 22rem;
   height: 15rem;
   padding: 2rem 0;
   text-decoration: none;
@@ -103,7 +103,7 @@ export default {
   opacity: 0.2;
 }
 .tutorial-title {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: DomaineItalic;
   color: var(--color-contrast);
 }
