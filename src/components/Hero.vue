@@ -3,7 +3,7 @@
       <div class="hero-intro rounded-lg w-full">
         <PageHeader 
           title="Filter. Texture. Create."
-          subtitle="The Most Complete & Featured-Rich Photo Editor on iOS."
+          subtitle="The Most Complete & Feature-Rich Photo Editor on iOS."
         />
       </div>
       <img 
