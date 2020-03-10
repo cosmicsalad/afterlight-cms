@@ -10,4 +10,4 @@ featured_image: https://afterlight.s3.us-west-1.amazonaws.com/1035978.jpg
 
 ijzhdfgijqeijbgibg qerjgh whg wgh
 
-!\[This is a test\]([`https://wujiquan.sgp1.digitaloceanspaces.com/Qigong/Wujiquan-six-healing-sounds.mp4`](https://wujiquan.sgp1.digitaloceanspaces.com/Qigong/Wujiquan-six-healing-sounds.mp4 "https://wujiquan.sgp1.digitaloceanspaces.com/Qigong/Wujiquan-six-healing-sounds.mp4"))
+!\[This is a test\]([https://www.youtube.com/watch?v=8r-19kwU1eI](https://www.youtube.com/watch?v=8r-19kwU1eI "https://www.youtube.com/watch?v=8r-19kwU1eI"))
