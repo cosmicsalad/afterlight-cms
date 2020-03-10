@@ -22,4 +22,4 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[Video Jan 19, 5 20 19 PM.mp4](https://afterlight.s3.us-west-1.amazonaws.com/Video Jan 19, 5 20 19 PM.mp4 "Video Jan 19, 5 20 19 PM.mp4")
+![](https://afterlight.s3.us-west-1.amazonaws.com/BaruDance.gif)
