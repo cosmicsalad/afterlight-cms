@@ -10,6 +10,6 @@ featured_image: https://afterlight.s3.us-west-1.amazonaws.com/1035978.jpg
 
 ijzhdfgijqeijbgibg qerjgh whg wgh
 
-<video width="100%" autoplay> <source src="https://afterlight.s3.us-west-1.amazonaws.com/Video Jan 19, 5 20 19 PM.mp4" type="video/mp4"> </video>
+<video width="100%" loop autoplay> <source src="https://afterlight.s3.us-west-1.amazonaws.com/Video Jan 19, 5 20 19 PM.mp4" type="video/mp4"> </video>
 
 ajnksjg
