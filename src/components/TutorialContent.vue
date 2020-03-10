@@ -35,8 +35,11 @@ p img {
     padding: 2rem 0;
 }
 video {
-    max-height: 400px;
-    margin: 3rem 0;
-    background: red;
+    max-height: 450px;
+    margin: 2rem 0;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
 }
 </style>
