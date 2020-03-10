@@ -22,5 +22,4 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/BaruDance.gif)  
-<iframe src='[https://gfycat.com/ifr/CrispGregariousLeafhopper](https://gfycat.com/ifr/CrispGregariousLeafhopper "https://gfycat.com/ifr/CrispGregariousLeafhopper")' frameborder='0' scrolling='no' allowfullscreen width='640' height='1182'></iframe>
+![](https://afterlight.s3.us-west-1.amazonaws.com/BaruDance.gif)
