@@ -36,5 +36,6 @@ p img {
 }
 video {
     max-height: 400px;
+    margin: 3rem 0;
 }
 </style>
