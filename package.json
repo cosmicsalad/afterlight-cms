@@ -10,7 +10,8 @@
     "@gridsome/remark-prismjs": "0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.4.0",
-    "gridsome": "^0.7.11"
+    "gridsome": "^0.7.11",
+    "markdown-it-html5-embed": "^1.0.0"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.36"

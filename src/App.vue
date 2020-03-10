@@ -62,12 +62,6 @@ export default {
 }
 
 @font-face {
-  font-family: CalibreItalic;
-  src: url('assets/DomaineBold-Italic.otf');
-  font-weight: italic;
-}
-
-@font-face {
   font-family: CalibreBold;
   src: url('assets/CalibreBold.otf');
   font-weight: normal;
