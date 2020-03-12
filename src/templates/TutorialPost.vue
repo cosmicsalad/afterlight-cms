@@ -68,6 +68,10 @@ export default {
 
 <style scoped lang="scss">
 
+.tutorial-step {
+  background: red;
+}
+
 .tutorial-container {
   // margin-top: 150px;
 }
