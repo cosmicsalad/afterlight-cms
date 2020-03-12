@@ -120,7 +120,7 @@ body.dark {
 }
 
 .layout.single-tutorial {
-  padding-top: 0;
+  padding-top: 3em;
 }
 
 h1 {
