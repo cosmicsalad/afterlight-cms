@@ -67,22 +67,28 @@ export default {
 }
 .nav > * {
     position: relative;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
+    letter-spacing: 2px;
     text-decoration: none;
     margin-top: 4px;
     margin-right: 2rem;
     padding-bottom: 4px;
-    line-height: 50px;
-    height: 50px;
+    line-height: 40px;
+    height: 40px;
     /* border-bottom: 1px solid;
     border-color: transparent; */
     transition: border 0.15s;
+    text-transform: uppercase;
 }
 .nav button {
     border: 0 !important;
     line-height: 1;
-    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    transition: all 0.15s ease-in-out;
 }
 .nav button:hover {
     /* border: 0; */
@@ -101,7 +107,7 @@ export default {
     content: "";
     height: 2px;
     position: absolute;
-    bottom: 0px;
+    bottom: -3px;
     left: 0;
     width: calc(100% - 2px);
     background-color:
