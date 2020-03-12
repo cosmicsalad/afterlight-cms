@@ -119,6 +119,10 @@ body.dark {
   padding-top: 10em;
 }
 
+.layout.single-tutorial {
+  padding-top: 0;
+}
+
 h1 {
   font-family: Domaine, serif;
   letter-spacing: -0.01em;

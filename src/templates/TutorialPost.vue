@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="single-tutorial">
     <div class="tutorial">
       <div class="tutorial-container">
 
