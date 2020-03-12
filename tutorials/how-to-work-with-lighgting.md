@@ -14,6 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at magna sem. 
 
 [IMG_0120.mov](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0120.mov "IMG_0120.mov")
 
+![](https://afterlight.s3.us-west-1.amazonaws.com/61065EC5-57DF-48C5-A47B-FC8ACC92A998_1_105_c.jpeg "So starting off the first thing I did was go to adjustments. From there I selected Color overlay.")
+
 Test.
 
 Phasellus bibendum velit nisl. Aliquam magna quam, venenatis lobortis commodo at, eleifend non libero. Mauris fermentum turpis id est accumsan vehicula.
