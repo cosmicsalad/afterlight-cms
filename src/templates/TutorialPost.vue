@@ -4,7 +4,7 @@
       <div class="container tutorial-container">
 
         <div class="tutorial-header pt-10">
-          <img v-src="$page.post.featured_image" />
+          <img v-src="$page.post.edges.node.featured_image" />
           <h1 v-html="$page.post.title" class="tutorial-title" />
           <div class="tutorial-meta">
             <div class="tutorial-author">
@@ -37,7 +37,11 @@ query TutorialPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
-    featured_image
+    edges {
+      node {
+        featured_image
+      }
+    }
   }
 }
 </page-query>
@@ -80,4 +84,9 @@ export default {
 .tutorial-meta > div:last-of-type {
   margin: 0;
 }
+
+.tutorial-content p img {
+  max-height: 500px;
+}
+
 </style>
