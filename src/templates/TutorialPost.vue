@@ -4,7 +4,6 @@
       <div class="container tutorial-container">
 
         <div class="tutorial-header pt-10">
-          <img v-src="$page.post.featured_image" />
           <h1 v-html="$page.post.title" class="tutorial-title" />
           <div class="tutorial-meta">
             <div class="tutorial-author">
@@ -21,6 +20,8 @@
             </div>
           </div>          
         </div>
+
+        <img :src="$page.post.featured_image" />
 
         <TutorialContent :content="$page.post.content" />
 
