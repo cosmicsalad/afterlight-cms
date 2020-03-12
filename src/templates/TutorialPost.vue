@@ -37,11 +37,7 @@ query TutorialPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
-    edges {
-      node {
-        featured_image
-      }
-    }
+    featured_image
   }
 }
 </page-query>
