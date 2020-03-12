@@ -34,6 +34,7 @@ h4, h5, h6 {
 }
 p img {
     padding: 2rem 0;
+    max-height: 500px;
 }
 video {
     max-height: 450px;
