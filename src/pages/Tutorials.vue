@@ -11,7 +11,7 @@
         :to="item.node.path"
         v-for="item in $page.posts.edges" 
         :key="item.node.id"
-        class="tutorial-post relative text-center bg-black-900 px-18 py-2 m-3 flex flex-col justify-center content-center overflow-hidden"
+        class="tutorial-post relative bg-black-900 px-18 py-2 m-3 flex flex-col justify-center content-center overflow-hidden"
       >
           <h2 class="tutorial-title pb-3 px-8 z-10 w-full block">{{ item.node.title }}</h2>
           <p class="tutorial-excerpt px-10 z-10 w-full block">{{ item.node.excerpt }}</p>
@@ -70,9 +70,9 @@ export default {
 .tutorial-post {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
-  width: 22rem;
+  width: 48%;
   height: 15rem;
   padding: 2rem 0;
   text-decoration: none;

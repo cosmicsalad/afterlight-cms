@@ -57,20 +57,20 @@ export default {
 
 @font-face {
   font-family: Calibre;
-  src: url('assets/CalibreMedium.otf');
-  font-weight: normal;
+  src: url('assets/calibre-regular.woff');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: CalibreItalic;
-  src: url('assets/DomaineBold-Italic.otf');
-  font-weight: italic;
+  font-family: CalibreMedium;
+  src: url('assets/calibre-medium.woff');
+  font-weight: 600;
 }
 
 @font-face {
   font-family: CalibreBold;
-  src: url('assets/CalibreBold.otf');
-  font-weight: normal;
+  src: url('assets/calibre-bold.woff');
+  font-weight: 900;
 }
 
 * {

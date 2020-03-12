@@ -66,14 +66,17 @@ export default {
     text-transform: uppercase;   
 }
 .nav > * {
+    position: relative;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
     margin-top: 4px;
     margin-right: 2rem;
     padding-bottom: 4px;
-    border-bottom: 1px solid;
-    border-color: transparent;
+    line-height: 50px;
+    height: 50px;
+    /* border-bottom: 1px solid;
+    border-color: transparent; */
     transition: border 0.15s;
 }
 .nav button {
@@ -82,7 +85,7 @@ export default {
     text-transform: uppercase;
 }
 .nav button:hover {
-    border: 0;
+    /* border: 0; */
 }
 .nav > *:last-child {
     margin-right: 0;
@@ -92,5 +95,27 @@ export default {
 }
 .nav > .active {
     border-color: inherit;
+}
+
+.nav__link:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: calc(100% - 2px);
+    background-color:
+    hsla(0,0%,95.7%,1.0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+.nav__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: 0 50%;
 }
 </style>

@@ -7,6 +7,16 @@ module.exports = {
   host: "0.0.0.0",
   titleTemplate: "%s - AL",
   siteDescription: "The Best Mobile Photo Editor on iOS.",
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-html5-embed'), {
+        html5embed: {
+          useImageSyntax: true,
+          useLinkSyntax: false
+        }
+      })
+    }
+  },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',

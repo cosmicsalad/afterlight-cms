@@ -15,8 +15,9 @@ export default {
 
 <style>
 p {
-    line-height: 1.5;
+    line-height: 1.75;
     font-size: 1.15rem;
+    padding: 0.75rem 0;
 }
 h1 {
     font-size: 1.75rem;
@@ -33,5 +34,13 @@ h4, h5, h6 {
 }
 p img {
     padding: 2rem 0;
+}
+video {
+    max-height: 450px;
+    margin: 1rem 0;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
 }
 </style>
