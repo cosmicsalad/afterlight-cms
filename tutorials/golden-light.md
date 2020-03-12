@@ -7,6 +7,6 @@ excerpt: 'Hello everyone! Coming out of the bleak winter here in the Northwest a
   Hope you like it! '
 featured_image: https://afterlight.s3.us-west-1.amazonaws.com/IMG_0120.mov
 date: 2020-03-11T00:00:00-07:00
-author: Angel Dorr
+author: A
 
 ---
