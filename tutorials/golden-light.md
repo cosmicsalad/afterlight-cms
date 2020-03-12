@@ -50,8 +50,14 @@ If you're going for a film look it's also fun to add some Grain or some Dust tex
 
 ![](https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg)
 
-I promise that's really it this time! Have fun playing around and adding some golden sunlight sunlight to your photos. I feel like this process works best on photos where the sun might already be out just to add that extra warmth. 
+I promise that's really it this time! Have fun playing around and adding some golden sunlight sunlight to your photos. I feel like this process works best on photos where the sun might already be out just to add that extra warmth. I have posted some photos below that I have edited with this process. 
 
 Thanks for following along!
 
 Angel 
+
+![](https://afterlight.s3.us-west-1.amazonaws.com/2F50FFDD-886B-4C23-99CF-310B59FEA41A_1_105_c.jpeg)![](https://afterlight.s3.us-west-1.amazonaws.com/E88BB7C7-80FD-446D-9C5E-80290E2ADFFE_1_105_c.jpeg)
+
+![](https://afterlight.s3.us-west-1.amazonaws.com/24C94BEC-C409-4502-BA7E-D1FF465F85E9_1_105_c.jpeg)
+
+![](https://afterlight.s3.us-west-1.amazonaws.com/61065EC5-57DF-48C5-A47B-FC8ACC92A998_1_105_c.jpeg)
