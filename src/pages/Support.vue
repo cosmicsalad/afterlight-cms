@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="support">
     <div class="container">
 
       <PageHeader 

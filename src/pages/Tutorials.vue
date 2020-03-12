@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="tutorials">
 
     <PageHeader
       title="Tutorials."
@@ -13,8 +13,8 @@
         :key="item.node.id"
         class="tutorial-post relative bg-black-900 px-18 py-2 m-3 flex flex-col justify-center content-center overflow-hidden"
       >
-          <h2 class="tutorial-title pb-3 px-8 z-10 w-full block">{{ item.node.title }}</h2>
-          <p class="tutorial-excerpt px-10 z-10 w-full block">{{ item.node.excerpt }}</p>
+          <h2 class="tutorial-title pb-3 px-8 z-10 w-full block text-center">{{ item.node.title }}</h2>
+          <p class="tutorial-excerpt px-10 z-10 w-full block text-center">{{ item.node.excerpt }}</p>
           <g-image :src="item.node.featured_image" class="bgimg absolute top-50 left-0 z-0" />
         
       </g-link>
@@ -72,12 +72,13 @@ export default {
   justify-content: center;
   align-items: flex-start;
   overflow: hidden;
-  width: 48%;
+  width: 25%;
   height: 15rem;
   padding: 2rem 0;
   text-decoration: none;
   transition: background 0.5s ease;
   border-radius: 2px;
+  border-radius: 4px;
 }
 .tutorial-post > * {
   transition: all 0.5s ease;
@@ -103,7 +104,7 @@ export default {
   opacity: 0.2;
 }
 .tutorial-title {
-  font-size: 1.6rem;
+  font-size: 30px;
   font-family: DomaineItalic;
   color: var(--color-contrast);
 }

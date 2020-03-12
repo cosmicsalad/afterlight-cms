@@ -1,5 +1,6 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/tutorials/')}">
+    <!-- <header class="header" :class="{ sticky: $route.path === '/' || $route.path.includes('/tutorials/') }"> -->
+    <header class="header">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
@@ -33,15 +34,22 @@ export default {
 
 <style scoped>
 .header {
-    position: relative;
-    height: 6rem;
+    width: 100%;
+    position: fixed;
+    height: 100px;
     z-index: 10;
+    font-size: 100%;
+    transition: all 600ms ease-in-out;
 }
 .header.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    height: 80px;
+    transition: all 600ms ease-in-out;
+}
+.header.sticky .nav > * {
+    font-size: 80%;
+}
+.header > * {
+    transition: all 600ms ease-in-out;
 }
 .header > .container {
     display: flex;

@@ -1,10 +1,8 @@
 <template>
-  <Layout>
-    <div class="home">
-      <Hero />
-      <div class="container">
-        <ProjectsGrid :projects="$page.projects.edges" />
-      </div>
+  <Layout class="home">
+    <Hero />
+    <div class="container">
+      <ProjectsGrid :projects="$page.projects.edges" />
     </div>
   </Layout>
 </template>

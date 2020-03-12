@@ -13,11 +13,11 @@
               </div> -->
               <div class="tutorial-date">
                 <span class="label">Date</span>
-                <div v-text="$page.post.date"/>
+                <div class="detail" v-text="$page.post.date"/>
               </div>
               <div class="tutorial-time">
                 <span class="label">Time</span>
-                <span>{{ $page.post.timeToRead }} min read</span>
+                <span class="detail">{{ $page.post.timeToRead }} min read</span>
               </div>
             </div>          
           </div>
@@ -97,7 +97,12 @@ export default {
 .tutorial-meta {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.8rem;
+  font-family: Calibre, sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+.tutorial-date .detail, .tutorial-time .detail {
+  color: #888;
 }
 .tutorial-meta > div {
   margin-right: 4rem;

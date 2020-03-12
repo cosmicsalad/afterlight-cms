@@ -1,8 +1,8 @@
 <template>
   <div class="app">
-    <Header />
+      <Header :class="{sticky: scrollPosition > 0}" />
         <main>
-            <router-view />
+          <router-view />
         </main>
     <Footer />
   </div>
@@ -22,9 +22,22 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 
 export default {
+    data() {
+      return {
+        scrollPosition: null
+      }
+    },
     components: {
-        Header,
-        Footer
+      Header,
+      Footer
+    },
+    methods: {
+      updateScroll() {
+        this.scrollPosition = window.scrollY
+      }
+    },
+    mounted() {
+      window.addEventListener('scroll', this.updateScroll);
     },
     metaInfo() {
         return {
@@ -81,7 +94,7 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: Calibre, eurostile-extended, titling-gothic-fb, sans-serif;
+  font-family: Calibre, sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.05rem;
@@ -100,6 +113,10 @@ body.dark {
   --color-base-1: rgb(43, 43, 43);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
+}
+
+.layout:not(.home) {
+  padding-top: 10em;
 }
 
 h1 {

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="company">
     <div class="container">
       <PageHeader 
         title="Afterlight Collective."
