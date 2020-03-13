@@ -8,3 +8,9 @@ categories:
 - tutorial
 
 ---
+
+<div class="tutorial-step">  
+<div class="count">1</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg">
+<p>This is where the step info will go</p>
+</div>
