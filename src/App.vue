@@ -131,14 +131,18 @@ body.dark {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 60px;
+  border: 1px solid rgba(11,11,11,0.9);
+  border-radius: 10px;
+  padding: 2rem;
   img {
-    max-height: 600px;
+    max-height: 550px;
     border-radius: 5px;
+    // box-shadow: 0 5px 10px 10px rgba(0,0,0,1.0);
   }
   p {
     text-align: left;
     width: 100%;
-    padding: 0 0 0 3rem;
+    padding: 1rem 0 0 3rem;
   }
 }
 
