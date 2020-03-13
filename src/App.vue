@@ -115,12 +115,12 @@ body.dark {
   --color-contrast-1: rgb(243, 243, 243);
 }
 
-.layout:not(.home) {
+.layout:not(.home):not(.single-tutorial) {
   padding-top: 10em;
 }
 
 .layout.single-tutorial {
-  /* padding-top: 3em; */
+  padding-top: 0;
 }
 
 .tutorial-step {
@@ -134,6 +134,17 @@ body.dark {
   border: 1px solid rgba(11,11,11,0.9);
   border-radius: 10px;
   padding: 2rem;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+  }
   img {
     max-height: 550px;
     border-radius: 5px;

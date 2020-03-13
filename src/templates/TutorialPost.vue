@@ -128,7 +128,7 @@ export default {
     font-size: 1rem;
   }
   .tutorial-date .detail, .tutorial-time .detail {
-    color: #888;
+    color: rgba(255,255,255,0.8);
   }
   .tutorial-meta > div {
     margin-right: 4rem;
