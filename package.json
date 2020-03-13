@@ -13,8 +13,7 @@
     "gridsome": "^0.7.11",
     "markdown-it-html5-embed": "^1.0.0",
     "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2",
-    "vue-sticky-directive": "^0.0.10"
+    "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.36"
