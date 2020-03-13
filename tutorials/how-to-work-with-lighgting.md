@@ -1,5 +1,5 @@
 ---
-date: 
+date: 2020-03-12T00:00:00-07:00
 author: Andrew Filip
 title: Title of the Tutorial
 excerpt: Text here will show under the title on the Tutorials page.
