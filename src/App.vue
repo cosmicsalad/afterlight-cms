@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 @font-face {
   font-family: Domaine;
@@ -124,14 +124,21 @@ body.dark {
 }
 
 .tutorial-step {
-  background: red;
+  background: rgba(11,11,11,0.2);
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 60px;
   img {
-    max-height: 500px;
+    max-height: 600px;
+    border-radius: 5px;
+  }
+  p {
+    text-align: left;
+    width: 100%;
+    padding: 0 0 0 3rem;
   }
 }
 
