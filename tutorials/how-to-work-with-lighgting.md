@@ -1,5 +1,5 @@
 ---
-date: 
+date: 2020-03-12T00:00:00-07:00
 author: Andrew Filip
 title: Title of the Tutorial
 excerpt: Text here will show under the title on the Tutorials page.
@@ -10,7 +10,7 @@ categories:
 ---
 <div class="tutorial-step">
 <img src="https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg">
-<p>This is where the step info will go</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius urna sit amet erat tempor laoreet. Pellentesque aliquam a erat at blandit. Etiam id vulputate neque.</p>
 </div>
 
 <div class="tutorial-step">
