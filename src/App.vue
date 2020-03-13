@@ -130,7 +130,7 @@ body.dark {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 60px;
+  margin: 50px 0;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px;
   padding: 2rem;
