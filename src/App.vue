@@ -131,20 +131,9 @@ body.dark {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 60px;
-  border: 1px solid rgba(11,11,11,0.9);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px;
   padding: 2rem;
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.4);
-  }
   img {
     max-height: 550px;
     border-radius: 5px;

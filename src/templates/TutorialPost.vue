@@ -6,7 +6,7 @@
         <div class="tutorial-header pt-10">
           <div class="container">
             <div class="tutorial-details">
-              <h1 v-html="$page.post.title" class="tutorial-title" />
+              <h1 class="tutorial-title" v-html="$page.post.title" />
               <div class="tutorial-meta">
                 <!-- <div class="tutorial-author">
                   <span class="label">Author</span>
@@ -68,12 +68,7 @@ export default {
 
 <style scoped lang="scss">
 
-.tutorial-container {
-  // margin-top: 150px;
-}
-
 .tutorial-header {
-  // overflow: hidden;
   padding: 0;
   position: relative;
   top: 0;
@@ -82,21 +77,19 @@ export default {
   width: 100%;
   height: 550px;
   margin-bottom: 60px;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+  }
   .container {
     height: inherit;
-  }
-  .tutorial-details {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: 0;
-    transform: translate3d(0,-50%,0);
-    z-index: 9999;
-    background: rgba(0,0,0,0.9);
-    padding: 2.5em 4em;
-    border-radius: 5px;
-    max-width: 650px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
   }
   .tutorial-banner {
     display: block;
@@ -114,27 +107,40 @@ export default {
       transform: translateY(-50%);
     }
   }
-  .tutorial-title {
-    font-size: 3.5rem;
-    margin: 0 0 25px 0;
-    padding: 0;
-    line-height: 1.2;
-  }
-  .tutorial-meta {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: Calibre, sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-  }
-  .tutorial-date .detail, .tutorial-time .detail {
-    color: rgba(255,255,255,0.8);
-  }
-  .tutorial-meta > div {
-    margin-right: 4rem;
-  }
-  .tutorial-meta > div:last-of-type {
-    margin: 0;
+  .tutorial-details {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translate3d(0,-20%,0);
+    z-index: 9999;
+    // background: rgba(0,0,0,0.9);
+    // padding: 2.5em 4em;
+    border-radius: 5px;
+    max-width: 800px;
+    // box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+    .tutorial-title {
+      font-size: 4rem;
+      margin: 0 0 10px 0;
+      padding: 0;
+      line-height: 1.2;
+    }
+    .tutorial-meta {
+      display: flex;
+      flex-wrap: wrap;
+      font-family: Calibre, sans-serif;
+      font-weight: bold;
+      font-size: 1rem;
+      > div {
+        margin-right: 4rem;
+      }
+      > div:last-of-type {
+        margin: 0;
+      }
+      .tutorial-date .detail, .tutorial-time .detail {
+        color: rgba(255,255,255,0.9);
+      }
+    }
   }
 }
 
