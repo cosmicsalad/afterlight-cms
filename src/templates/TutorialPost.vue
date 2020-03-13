@@ -77,6 +77,7 @@ export default {
   width: 100%;
   height: 550px;
   margin-bottom: 60px;
+  
   &:after {
     content: '';
     display: block;
@@ -87,6 +88,7 @@ export default {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.4);
+    // box-shadow: inset 0 -120px 60px -100px rgba(0,0,0,1.0);
   }
   .container {
     height: inherit;

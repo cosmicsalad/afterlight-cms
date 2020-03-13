@@ -134,6 +134,19 @@ body.dark {
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px;
   padding: 2rem;
+  .count {
+    background: #151515;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    font-family: Domaine;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 54px;
+  }
   img {
     max-height: 550px;
     border-radius: 5px;
