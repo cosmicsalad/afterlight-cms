@@ -130,6 +130,9 @@ body.dark {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  img {
+    max-height: 500px;
+  }
 }
 
 h1 {
