@@ -123,6 +123,15 @@ body.dark {
   /* padding-top: 3em; */
 }
 
+.tutorial-step {
+  background: red;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 h1 {
   font-family: Domaine, serif;
   letter-spacing: -0.01em;

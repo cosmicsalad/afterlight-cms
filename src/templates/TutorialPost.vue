@@ -68,15 +68,6 @@ export default {
 
 <style scoped lang="scss">
 
-.tutorial-step {
-  background: red;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .tutorial-container {
   // margin-top: 150px;
 }
