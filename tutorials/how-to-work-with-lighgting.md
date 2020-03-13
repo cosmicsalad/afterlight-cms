@@ -8,18 +8,21 @@ categories:
 - tutorial
 
 ---
-
 <div class="tutorial-step">  
 <div class="count">1</div>
 <img src="https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg">
 <p>This is where the step info will go</p>
 </div>
 
+Some other supplemental text could go here for added information or to explain why you chose to do something a certain way. Or something good to know inbetween steps. :)
+
 <div class="tutorial-step">  
 <div class="count">2</div>
 <img src="https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg">
 <p>This is where the step info will go</p>
 </div>
+
+From there I selected the color overlay R4 and set it to the Multiply blending mode. I set it at 100% Opacity. The reason I chose R4 for this is because of the soft golden color that it has. I also really like Multiply as a blending mode is because it gives the photos a golden tint almost over the top like a glaze.
 
 <div class="tutorial-step">  
 <div class="count">3</div>
