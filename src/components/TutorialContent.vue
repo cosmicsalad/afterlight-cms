@@ -34,6 +34,7 @@ h4, h5, h6 {
 }
 p img {
     padding: 60px 0;
+    width: 100%;
 }
 video {
     max-height: 450px;
@@ -57,6 +58,7 @@ video {
   line-height: 54px;
 }
 .tutorial-step img {
+    width: auto !important;
   max-height: 550px !important;
   border-radius: 5px;
 }
