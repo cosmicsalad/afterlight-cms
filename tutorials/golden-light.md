@@ -8,7 +8,7 @@ date: 2020-03-11T07:00:00.000+00:00
 author: Angel Dorr
 
 ---
-#Hello everyone! I'm coming out of a bleak winter here in the Northwest and hoping we are headed for some warmer weather. I was inspired to create this Golden Light filter. I hope you like it!
+### Hello everyone! I'm coming out of a bleak winter here in the Northwest and hoping we are headed for some warmer weather. I was inspired to create this Golden Light filter. I hope you like it!
 
 <div class="tutorial-step">  
 <div class="count">1</div>
@@ -52,7 +52,7 @@ author: Angel Dorr
 <p>And that's it! I like to save these as fusion filters so I can use on whatever opacity I like depending on the photo.</p>
 </div>
 
-##Extra
+### Extra
 
 If you feel like being extra I like to layer the Tide filter at about 50% opacity over the top of this. But feel free to experiment and see what filters you like to layer with this one.
 
