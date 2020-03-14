@@ -136,6 +136,30 @@ body.dark {
   padding: 2rem;
 }
 
+.tutorial-step .count {
+  background: #151515;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  font-family: Domaine;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 54px;
+}
+.tutorial-step img {
+    width: auto !important;
+  max-height: 550px !important;
+  border-radius: 5px;
+}
+.tutorial-step p {
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0 0 3rem;
+}
+
 h1 {
   font-family: Domaine, serif;
   letter-spacing: -0.01em;
