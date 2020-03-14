@@ -5,7 +5,7 @@ title: 'Golden Light '
 excerpt: ''
 featured_image: https://afterlight.s3.us-west-1.amazonaws.com/AfterlightImage.JPG
 date: 2020-03-11T07:00:00.000+00:00
-author: A
+author: Angel Dorr
 
 ---
 Hello everyone! I'm coming out of a bleak winter here in the Northwest and hoping we are headed for some warmer weather. I was inspired to create this Golden Light filter. I hope you like it!
@@ -16,7 +16,7 @@ So starting off the first thing I did was go to adjustments. From there I select
 
 ![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0121.jpeg)
 
-From there I selected the color overlay R4 and set it to the Multiply blending mode. I set it at 100% Opacity. The reason I chose R4 for this is because of the soft golden color that it has. I also really like Multiply as a blending mode is because it gives the photos a golden tint almost over the top like a glaze.  
+From there I selected the color overlay R4 and set it to the Multiply blending mode. I set it at 100% Opacity. The reason I chose R4 for this is because of the soft golden color that it has. I also really like Multiply as a blending mode is because it gives the photos a golden tint almost over the top like a glaze.
 
 ![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0123.jpeg)
 
