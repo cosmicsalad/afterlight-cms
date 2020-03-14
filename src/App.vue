@@ -148,7 +148,7 @@ body.dark {
     line-height: 54px;
   }
   img {
-    max-height: 550px;
+    max-height: 550px !important;
     border-radius: 5px;
     // box-shadow: 0 5px 10px 10px rgba(0,0,0,1.0);
   }
