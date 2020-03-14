@@ -14,7 +14,7 @@ categories:
 <p>This is where the step info will go</p>
 </div>
 
-Some other supplemental text could go here for added information or to explain why you chose to do something a certain way. Or something good to know inbetween steps.
+Some other supplemental text could go here for added information or to explain why you chose to do something a certain way. Or something good to know inbetween steps.dfghdfg
 
 <div class="tutorial-step">  
 <div class="count">2</div>
