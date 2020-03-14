@@ -54,19 +54,22 @@ author: Angel Dorr
 
 ### Extra
 
-If you feel like being extra I like to layer the Tide filter at about 50% opacity over the top of this. But feel free to experiment and see what filters you like to layer with this one.
+<div class="tutorial-step">
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/7B681E40-97E4-4E42-AF20-EC22B9D53FEA_1_105_c.jpeg">
+<p>If you feel like being extra I like to layer the Tide filter at about 50% opacity over the top of this. But feel free to experiment and see what filters you like to layer with this one.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/7B681E40-97E4-4E42-AF20-EC22B9D53FEA_1_105_c.jpeg)
+<div class="tutorial-step">
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/479FF3D9-D03C-4E65-B842-394F94E2C825_1_105_c.jpeg">
+<p>If you're going for a film look it's also fun to add some Grain or some Dust texture.</p>
+</div>
 
-If you're going for a film look it's also fun to add some Grain or some Dust texture.
+<div class="tutorial-step">
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg">
+<p>I promise that's really it this time! Have fun playing around and adding some golden sunlight sunlight to your photos. I feel like this process works best on photos where the sun might already be out just to add that extra warmth. I have posted some photos below that I have edited with this process.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/479FF3D9-D03C-4E65-B842-394F94E2C825_1_105_c.jpeg)
-
-![](https://afterlight.s3.us-west-1.amazonaws.com/1576302A-8254-4273-83AA-C1912600B70B_1_105_c.jpeg)
-
-I promise that's really it this time! Have fun playing around and adding some golden sunlight sunlight to your photos. I feel like this process works best on photos where the sun might already be out just to add that extra warmth. I have posted some photos below that I have edited with this process.
-
-Thanks for following along!
+### Thanks for following along!
 
 Angel
 
