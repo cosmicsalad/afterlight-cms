@@ -33,8 +33,7 @@ h4, h5, h6 {
     font-size: 1.15rem;
 }
 p img {
-    padding: 2rem 0;
-    max-height: 500px;
+    padding: 60px 0;
 }
 video {
     max-height: 450px;
