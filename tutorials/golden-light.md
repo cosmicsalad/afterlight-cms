@@ -5,40 +5,54 @@ title: 'Golden Light '
 excerpt: ''
 featured_image: https://afterlight.s3.us-west-1.amazonaws.com/AfterlightImage.JPG
 date: 2020-03-11T07:00:00.000+00:00
-author: A
+author: Angel Dorr
 
 ---
-Hello everyone! I'm coming out of a bleak winter here in the Northwest and hoping we are headed for some warmer weather. I was inspired to create this Golden Light filter. I hope you like it!
+#Hello everyone! I'm coming out of a bleak winter here in the Northwest and hoping we are headed for some warmer weather. I was inspired to create this Golden Light filter. I hope you like it!
 
-So starting off the first thing I did was go to adjustments. From there I selected Color overlay.
+<div class="tutorial-step">  
+<div class="count">1</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0122.jpeg">
+<p>So starting off the first thing I did was go to adjustments. From there I selected Color overlay.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0122.jpeg)
+<div class="tutorial-step">  
+<div class="count">2</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0121.jpeg">
+<p>From there I selected the color overlay R4 and set it to the Multiply blending mode. I set it at 100% Opacity. The reason I chose R4 for this is because of the soft golden color that it has. I also really like Multiply as a blending mode is because it gives the photos a golden tint almost over the top like a glaze.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0121.jpeg)
+<div class="tutorial-step">  
+<div class="count">3</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0123.jpeg">
+<p>Next I went to the Temperature tool in Adjustments. And put it at 100. Which will add a lot more warmth to the filter. I repeated this step and extra time to get extra warmth. Depending on how warm you would like your filter this is optional. So Temperature at 100 two times.</p>
+</div>
 
-From there I selected the color overlay R4 and set it to the Multiply blending mode. I set it at 100% Opacity. The reason I chose R4 for this is because of the soft golden color that it has. I also really like Multiply as a blending mode is because it gives the photos a golden tint almost over the top like a glaze.  
+<div class="tutorial-step">  
+<div class="count">4</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0126.png">
+<p>Following that I went into the main filter section and chose the Fable filter at 100 percent.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0123.jpeg)
+<div class="tutorial-step">  
+<div class="count">5</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0132.jpeg">
+<p>Next I went into the curves layer to add some more dimension.</p>
+</div>
 
-Next I went to the Temperature tool in Adjustments. And put it at 100. Which will add a lot more warmth to the filter. I repeated this step and extra time to get extra warmth. Depending on how warm you would like your filter this is optional. So Temperature at 100 two times.
+<div class="tutorial-step">  
+<div class="count">6</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0133.jpeg">
+<p>My curves layer looks like this. I placed the bottom of the curve down a bit and the top part up a tiny bit but not too much.</p>
+</div>
 
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0126.png)
+<div class="tutorial-step">  
+<div class="count">7</div>
+<img src="https://afterlight.s3.us-west-1.amazonaws.com/IMG_0136.png">
+<p>And that's it! I like to save these as fusion filters so I can use on whatever opacity I like depending on the photo.</p>
+</div>
 
-Following that I went into the main filter section and chose the Fable filter at 100 percent.
-
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0132.jpeg)
-
-Next I went into the curves layer to add some more dimension.
-
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0133.jpeg)
-
-My curves layer looks like this. I placed the bottom of the curve down a bit and the top part up a tiny bit but not too much.
-
-![](https://afterlight.s3.us-west-1.amazonaws.com/IMG_0136.png)
-
-And that's it! I like to save these as fusion filters so I can use on whatever opacity I like depending on the photo.
-
-Extra
+##Extra
 
 If you feel like being extra I like to layer the Tide filter at about 50% opacity over the top of this. But feel free to experiment and see what filters you like to layer with this one.
 
